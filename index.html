@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Chúc Mừng Sinh Nhật</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+</head>
+<body>
+
+<div class="gift" id="giftBox">
+    <img class="gift-img" src="./letter.gif" alt="Hộp quà">
+</div>
+
+<div class="card hidden" id="message">
+    <h1>🎉 Chúc Mừng Sinh Nhật! 🎂</h1>
+    <p id="birthdayText"></p>
+    <div id="text_next" style="animation: heartbeat 1.5s infinite;">Tớ còn điều muốn nói với cậu
+        nhấn vào đây đi></div>
+</div>
+
+<div id="container_last" class="container_last">
+    <div class="message2" id="message2"></div>
+    <div class="layout_dialog" id="layout">
+        <p style="color: #ffc2d1;font-size: 40px; line-height: 2; margin-top: 0px;">
+            Cậu có đồng ý cho tớ cơ hội để bên cạnh yêu thương cậu không</p>
+        <div class="button-layout">
+            <button class="button2 margin-right" onclick="agree()" id="agreeButton">Đồng ý 😘</button>
+            <button class="button2 margin-left" onclick="disagree()" id="disagreeButton">Không 🥲</button>
+        </div>
+    </div>
+</div>
+
+<div id="container_end" class="container_last">
+    <p class = "message2"> Cảm ơn cậu đã đồng ý <3</p>
+    <img class="gift-img-end" src="./end.gif" alt="End game">
+</div>
+
+<button class="button22" onclick="disagree2()" id="disagreeButton2">Không 🥲</button>
+
+<audio id="birthdayMusic" src="./music_final.MP3" loop></audio>
+<script src="./index.js"></script>
+
+</body>
+</html>
