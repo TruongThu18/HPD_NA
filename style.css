@@ -8,6 +8,7 @@ body {
     font-family: 'Pacifico', cursive;
     overflow: hidden;
     position: relative;
+    background: linear-gradient(135deg, #ff8488, #f8c5b7);
 }
 
 .gift {
