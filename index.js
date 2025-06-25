@@ -154,8 +154,8 @@ const messages = [
       var newSize = currentSize + 6; // Tăng kích thước font lên 4px
 
       button2.style.fontSize = newSize + 'px';
-      var newTop = Math.floor(Math.random() * 800);
-      var newLeft = Math.floor(Math.random() * 350);
+      var newTop = Math.floor(Math.random() * (window.innerHeight - 50));
+      var newLeft = Math.floor(Math.random() * (window.innerWidth - 50));
       button.style.top = newTop + 'px';
       button.style.left = newLeft + 'px';
   }
